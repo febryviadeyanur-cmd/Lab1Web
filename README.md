@@ -1,8 +1,11 @@
 # Praktikum 1: HTML Dasar
 
 Nama: Febryvia Deya Nur Havidtar Murti Aqsa
+
 NIM: 312510194
+
 Mata Kuliah: Pemrograman Web
+
 Kelas: I251B
 
 ## Deskripsi
@@ -31,12 +34,19 @@ heading, paragraf, pemformatan teks, gambar, hyperlink, list, dan komentar HTML.
 
 ## Struktur Folder
 
+```
 Lab1Web/
 ├── index.html
 ├── halaman2.html
+├── README.md
 ├── images/
 │   └── profil.jpg
-└── README.md
+└── screenshots/
+    ├── image-01.png
+    ├── image-02.png
+    ├── image-03.png
+    └── image-04.png
+```
 
 
 ## Jawaban Pertanyaan
