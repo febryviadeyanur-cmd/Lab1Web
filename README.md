@@ -23,7 +23,7 @@ heading, paragraf, pemformatan teks, gambar, hyperlink, list, dan komentar HTML.
 7. **Menambahkan Hyperlink** : Membuat `halaman2.html` dan menghubungkannya dengan `<nav>` dan tag `<a>`.
 8. **Menambahkan List** : Membuat unordered list (`<ul>`) untuk keahlian dan ordered list (`<ol>`) untuk target belajar.
 9. **Menambahkan Komentar** : Menambahkan komentar `<!-- ... -->` sebagai penanda bagian kode.
-10. **Menggabungkan Semua Elemen** : Menggabungkan semua elemen di atas menjadi satu halaman Profil Mahasiswa (`index.html`).
+10. **Menggabungkan Semua Elemen** : Menggabungkan semua elemen menjadi satu halaman Profil Mahasiswa (`index.html`).
 
 ## Screenshot
 
@@ -51,13 +51,32 @@ Lab1Web/
 
 ## Jawaban Pertanyaan
 
-1. **Fungsi `<!DOCTYPE html>`** : Mendeklarasikan bahwa dokumen menggunakan standar HTML5, ditulis di awal dokumen.
-2. **Perbedaan tag, elemen, atribut** : Tag adalah penanda pembuka/penutup (`<p>`), elemen adalah gabungan tag pembuka + isi + tag penutup, atribut adalah informasi tambahan pada tag pembuka (`href`, `src`).
-3. **Perbedaan `<p>` dan `<br>`** — `<p>` membuat paragraf baru dengan jarak/margin, `<br>` hanya memindahkan ke baris baru tanpa membuat paragraf baru.
-4. **Fungsi atribut `href`** : Menentukan URL atau tujuan tautan pada tag `<a>`.
-5. **Hyperlink internal vs eksternal** : Internal menuju file/halaman dalam website yang sama, eksternal menuju website lain.
-6. **Fungsi `src` dan `alt` pada `<img>`**, `src` menentukan lokasi/path gambar, `alt` menampilkan teks alternatif jika gambar gagal dimuat.
-7. **Perbedaan `<ul>` dan `<ol>`**, `<ul>` membuat daftar tanpa urutan (bullet), `<ol>` membuat daftar berurutan (bernomor).
-8. **Jika path gambar salah** : Gambar tidak akan tampil, browser hanya menampilkan ikon gambar rusak dan teks `alt`.
-9. **Mengapa heading harus terstruktur** : Agar dokumen mudah dibaca, terorganisir, dan baik untuk aksesibilitas serta SEO.
-10. **Fungsi komentar `<!-- -->`** : Memberi catatan pada kode tanpa ditampilkan di browser, atau menonaktifkan kode sementara.
+1. Apa fungsi deklarasi `<!DOCTYPE html>` pada dokumen HTML?
+Jawaban: Mendeklarasikan bahwa dokumen menggunakan standar HTML5, deklarasi dapat ditulis di bagian paling awal dokumen HTML.
+
+2. Apa perbedaan antara tag, elemen, dan atribut pada HTML?
+Jawaban: Tag adalah penanda pembuka dan penutup dari sebuah elemen, contohnya `<p>`. Elemen adalah gabungan dari tag pembuka, isi, dan tag penutup. Atribut adalah informasi tambahan yang ditulis pada tag pembuka, contohnya `href` dan `src`.
+
+3. Apa perbedaan `<p>` dengan `<br>`? Jelaskan penggunaannya.
+Jawaban: `<p>` digunakan untuk membuat paragraf baru dan otomatis memberi jarak atau margin antar paragraf. `<br>` hanya memindahkan teks ke baris baru tanpa membuat paragraf baru dan tanpa jarak tambahan.
+
+4. Apa fungsi atribut `href` pada tag `<a>`?
+Jawaban: Menentukan URL atau tujuan tautan yang akan dituju ketika link diklik.
+
+5. Apa perbedaan hyperlink ke halaman internal dengan hyperlink ke website eksternal?
+Jawaban: Hyperlink internal menuju ke file atau halaman lain dalam website yang sama, sedangkan hyperlink eksternal menuju ke website lain di luar website tersebut.
+
+6. Apa fungsi atribut `src` dan `alt` pada tag `<img>`?
+Jawaban: Atribut `src` menentukan lokasi atau path file gambar yang akan ditampilkan. Atribut `alt` menampilkan teks alternatif ketika gambar gagal dimuat.
+
+7. Apa perbedaan penggunaan `<ul>` dan `<ol>`?
+Jawaban: `<ul>` digunakan untuk membuat daftar tanpa urutan/nomor (bullet), sedangkan `<ol>` digunakan untuk membuat daftar berurutan atau bernomor.
+
+8. Apa yang terjadi jika path gambar pada atribut `src` salah?
+Jawaban: Gambar tidak akan tampil di halaman, browser hanya akan menampilkan ikon gambar rusak beserta teks dari atribut `alt`.
+
+9. Mengapa struktur heading `h1` sampai `h6` perlu digunakan secara terstruktur?
+Jawaban: Agar dokumen lebih mudah dibaca, terorganisir dengan baik, dan mendukung aksesibilitas serta SEO (Search Engine Optimization).
+
+10. Apa fungsi komentar `<!-- ... -->` dalam kode HTML?
+Jawaban: Memberikan catatan atau penanda pada bagian kode tanpa ditampilkan di browser, atau digunakan untuk menonaktifkan sementara bagian kode tertentu.
