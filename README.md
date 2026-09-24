@@ -58,7 +58,7 @@ Jawaban: Mendeklarasikan bahwa dokumen menggunakan standar HTML5, deklarasi dapa
 Jawaban: Tag adalah penanda pembuka dan penutup dari sebuah elemen, contohnya `<p>`. Elemen adalah gabungan dari tag pembuka, isi, dan tag penutup. Atribut adalah informasi tambahan yang ditulis pada tag pembuka, contohnya `href` dan `src`.
 
 3. Apa perbedaan `<p>` dengan `<br>`? Jelaskan penggunaannya.
-Jawaban: `<p>` digunakan untuk membuat paragraf baru dan otomatis memberi jarak atau margin antar paragraf. `<br>` hanya memindahkan teks ke baris baru tanpa membuat paragraf baru dan tanpa jarak tambahan.
+Jawaban: `<p>` digunakan untuk membuat paragraf baru dan otomatis memberi jarak atau margin antar paragraf. `<br>` untuk memindahkan teks ke baris baru tanpa membuat paragraf baru dan tanpa jarak tambahan.
 
 4. Apa fungsi atribut `href` pada tag `<a>`?
 Jawaban: Menentukan URL atau tujuan tautan yang akan dituju ketika link diklik.
@@ -67,10 +67,10 @@ Jawaban: Menentukan URL atau tujuan tautan yang akan dituju ketika link diklik.
 Jawaban: Hyperlink internal menuju ke file atau halaman lain dalam website yang sama, sedangkan hyperlink eksternal menuju ke website lain di luar website tersebut.
 
 6. Apa fungsi atribut `src` dan `alt` pada tag `<img>`?
-Jawaban: Atribut `src` menentukan lokasi atau path file gambar yang akan ditampilkan. Atribut `alt` menampilkan teks alternatif ketika gambar gagal dimuat.
+Jawaban: Atribut `src` menentukan lokasi atau path file gambar yang akan ditampilkan. Atribut `alt` menampilkan teks alternatif ketika gambar gagal memuat.
 
 7. Apa perbedaan penggunaan `<ul>` dan `<ol>`?
-Jawaban: `<ul>` digunakan untuk membuat daftar tanpa urutan/nomor (bullet), sedangkan `<ol>` digunakan untuk membuat daftar berurutan atau bernomor.
+Jawaban: `<ul>` digunakan untuk membuat daftar tanpa urutan atau nomor (bullet), sedangkan `<ol>` digunakan untuk membuat daftar berurutan atau bernomor.
 
 8. Apa yang terjadi jika path gambar pada atribut `src` salah?
 Jawaban: Gambar tidak akan tampil di halaman, browser hanya akan menampilkan ikon gambar rusak beserta teks dari atribut `alt`.
